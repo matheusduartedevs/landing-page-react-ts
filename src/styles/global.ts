@@ -21,6 +21,7 @@ const globalStyle = createGlobalStyle`
         font-family: 'Poppins', sans-serif;
         border: none;
         outline: none;
+        cursor: pointer;
     }
 
     a {
