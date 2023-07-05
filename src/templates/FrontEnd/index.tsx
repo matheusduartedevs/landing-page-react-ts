@@ -1,3 +1,4 @@
+import Header from '../../organisms/Header'
 import * as C from './styles'
 
 type FrontendProps = {
@@ -6,7 +7,9 @@ type FrontendProps = {
 
 const Frontend = ({ children }: FrontendProps ) => {
   return (
-    <C.Container>Frontend {children}</C.Container>
+    <C.Container>
+        <Header></Header>
+    </C.Container>
   )
 }
 
