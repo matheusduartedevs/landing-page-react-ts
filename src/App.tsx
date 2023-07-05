@@ -1,8 +1,9 @@
+import Frontend from "./templates/FrontEnd"
 
 
 const App = () => {
   return (
-    <div>App</div>
+    <Frontend>Template</Frontend>
   )
 }
 
