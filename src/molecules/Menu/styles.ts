@@ -19,4 +19,4 @@ export const ItemList = styled.li`
         color: #1e255e;
         transition: color .25s ease;
     }
-`
+` 
