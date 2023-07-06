@@ -20,5 +20,13 @@ export const Container = styled.div`
         font-weight: normal;
         padding-right: 150px;
         margin-top: 25px;
+    } 
+`
+
+export const ColumnImage = styled.div`
+    text-align: right;
+    
+    img {
+        margin-left: 112px;
     }
 `

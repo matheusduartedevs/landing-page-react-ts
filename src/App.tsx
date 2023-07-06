@@ -1,6 +1,7 @@
 import Frontend from "./templates/FrontEnd"
-import * as C from './index'
+import * as C from './styles'
 import ButtonContact from "./atoms/ButtonContact"
+import HeroImage from './assets/HeroImage.svg'
 
 const App = () => {
   return (
@@ -14,7 +15,9 @@ const App = () => {
           <ButtonContact />
         </div>
 
-        <div>Coluna 2</div>
+        <C.ColumnImage>
+          <img src={HeroImage} alt="Hero header image" />
+        </C.ColumnImage>
       </C.Container>
     </Frontend>
   )
